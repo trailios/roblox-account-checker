@@ -38,7 +38,6 @@ options = webdriver.ChromeOptions()
 options.add_argument("--window-size=%s" % WINDOW_SIZE)
 options.add_experimental_option("excludeSwitches", ["enable-logging"])
 options.add_experimental_option("detach", True)
-options.add_extension('nopecha.crx')
 
 chromedriver_autoinstaller.install()
 
