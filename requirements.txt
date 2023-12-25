@@ -1,2 +1,4 @@
 colorama
 selenium
+pyfiglet
+chromedriver_autoinstaller
