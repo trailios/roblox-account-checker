@@ -59,10 +59,6 @@ for combo in combolist:
     driver = webdriver.Chrome(options=options)
     driver.get(URL)
     sleep(1.5)
-    cookieBtn = driver.find_element(
-        By.XPATH, "//*[contains(text(), 'Allem zustimmen')]"
-    )
-    cookieBtn.click()
 
     usernameInput = driver.find_element(By.NAME, "username")
     usernameInput.send_keys(username)
